@@ -76,7 +76,7 @@ export default function Home() {
           </div>
           
           {/* Glassmorphic Paragraph Container */}
-          <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto px-6 py-4 bg-white/5 backdrop-blur-md rounded-2xl border border-white/10 shadow-xl">
+          <p className="mt-4 text-lg font-normal bg-transparent text-neutral-300 max-w-lg text-center mx-auto px-6 py-4    rounded-2xl    shadow-xl">
             Custom tailored solutions for your business. We are a team of creatives who are excited to help you grow your business.
           </p>
 
