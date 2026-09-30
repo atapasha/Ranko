@@ -47,8 +47,8 @@ const Navbar = ({
   };
 
   return (
-    <div>
-      <div className="p-6 md:p-10 flex items-center justify-between z-50">
+    <div >
+      <div className="p-6 md:p-10 flex items-center justify-between z-50 bg-transparent">
         <div>
           <Link className="cursor-pointer" href="/">
             <Image
@@ -95,7 +95,7 @@ const Navbar = ({
             onClick={() => handleNavClick(scrollToBrands)}
             className="hover:text-gray-50"
           >
-            Brands
+            Social media
           </div>
 
           <Link href="/pricing" className="hover:text-gray-50">
